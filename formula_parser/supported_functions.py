@@ -80,17 +80,17 @@ class Operators:
     @property
     def supported_operators(cls):
         return {
-            "&": cls._and,
-            "+": cls._plus,
-            "-": cls._minus,
-            "/": cls._divide,
-            "*": cls._multiply,
-            "^": cls._pow,
-            "<": cls._lt,
-            "<=": cls._lte,
-            "=": cls._eq,
-            ">=": cls._gte,
-            ">": cls._gt,
+            "&": "_and",
+            "+": "_plus",
+            "-": "_minus",
+            "/": "_divide",
+            "*": "_multiply",
+            "^": "_pow",
+            "<": "_lt",
+            "<=": "_lte",
+            "=": "_eq",
+            ">=": "_gte",
+            ">": "_gt",
         }
 
     def _and(self, params):
